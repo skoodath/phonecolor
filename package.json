@@ -1,0 +1,22 @@
+{
+  "name": "phonecolor",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/skoodath/phonecolor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skoodath/phonecolor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skoodath/phonecolor/issues"
+  },
+  "homepage": "https://github.com/skoodath/phonecolor#readme",
+  "dependencies": {
+    "sass": "^1.45.1"
+  }
+}
