@@ -58,20 +58,6 @@ li:active {
   background: lightgray;
 }
 
-/* .phonewrapouter {
-    width: 340px;
-    height: 640px;
-    perspective: 1000px;
-}
-
-.phonewrapinner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-} */
 .c-phone {
   position: absolute;
   left: 50%;
@@ -80,6 +66,64 @@ li:active {
   height: 640px;
   border-radius: 25px;
   box-shadow: 0 0 10px #999;
+}
+.c-phone span:nth-child(2) {
+  top: 25px;
+  content: "";
+  position: absolute;
+  background: #999;
+  width: 60px;
+  height: 6px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+}
+.c-phone span:nth-child(4) {
+  bottom: 25px;
+  content: "";
+  position: absolute;
+  background: #999;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #666 inset;
+}
+.c-phone span .c-phone span:nth-child(1) {
+  top: 25px;
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #999;
+  left: 30%;
+  transform: translate(-30%);
+  border-radius: 10px;
+}
+.c-phone span:nth-child(3) {
+  top: 25px;
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #f2f2f2;
+  right: 20%;
+  transform: translate(-30%, -15%);
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #5a5a5a, 0 0 0 2px #ffffff inset, 0 0 0 2px #5a5a5a inset;
+}
+.c-phone span::after {
+  content: "";
+  width: 90%;
+  height: 10px;
+  background: #666;
+  position: absolute;
+  bottom: -100px;
+  right: 0%;
+  transform: translate(-5%);
+  filter: blur(2px);
+  border-radius: 10px;
 }
 
 .c-screen {
@@ -98,69 +142,6 @@ li:active {
 .phonewrapinner {
     transform: rotateY(180deg);
 } */
-.c-phone span:nth-child(2) {
-  top: 25px;
-  content: "";
-  position: absolute;
-  background: #999;
-  width: 60px;
-  height: 6px;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 10px;
-}
-
-.c-phone span:nth-child(4) {
-  bottom: 25px;
-  content: "";
-  position: absolute;
-  background: #999;
-  width: 40px;
-  height: 40px;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 50%;
-  box-shadow: 2px 2px 3px #666 inset;
-}
-
-.c-phone span:nth-child(1) {
-  top: 25px;
-  content: "";
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  background: #999;
-  left: 30%;
-  transform: translate(-30%);
-  border-radius: 10px;
-}
-
-.c-phone span:nth-child(3) {
-  top: 25px;
-  content: "";
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background: #f2f2f2;
-  right: 20%;
-  transform: translate(-30%, -15%);
-  border-radius: 10px;
-  box-shadow: 0 0 0 2px #5a5a5a, 0 0 0 2px #ffffff inset, 0 0 0 2px #5a5a5a inset;
-}
-
-.c-phone::after {
-  content: "";
-  width: 90%;
-  height: 10px;
-  background: #666;
-  position: absolute;
-  bottom: -100px;
-  right: 0%;
-  transform: translate(-5%);
-  filter: blur(2px);
-  border-radius: 10px;
-}
-
 /* .c-flipside {
     position: absolute;
     left: 50%;
